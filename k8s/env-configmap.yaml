@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-config
+data:
+  AWS_BUCKET: uda-3-bucket
+  AWS_PROFILE: vuAdmin
+  AWS_REGION: us-east-1
+  JWT_SECRET: testing
+  POSTGRES_DB: vunh24
+  POSTGRES_HOST: database-1.cqpj0mnkxydn.us-east-1.rds.amazonaws.com
+  URL: http://localhost:8100  
