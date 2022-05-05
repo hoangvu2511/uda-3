@@ -9,4 +9,4 @@ data:
   JWT_SECRET: testing
   POSTGRES_DB: vunh24
   POSTGRES_HOST: database-1.cqpj0mnkxydn.us-east-1.rds.amazonaws.com
-  URL: http://localhost:8100  
+  URL: http://a39abbbe159fa41a0ac42f36c26402cf-1252335595.us-east-1.elb.amazonaws.com:8100  

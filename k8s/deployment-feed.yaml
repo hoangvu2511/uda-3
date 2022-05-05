@@ -12,6 +12,7 @@ spec:
   template:
     metadata:
       labels:
+        service: feed
         app: feed
     spec:
       containers:

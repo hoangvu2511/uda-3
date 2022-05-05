@@ -12,6 +12,7 @@ spec:
   template:
     metadata:
       labels:
+        service: user
         app: user
     spec:
       containers:
